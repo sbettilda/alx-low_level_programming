@@ -1,1 +1,1 @@
-Intel Syntax
+UNIX
