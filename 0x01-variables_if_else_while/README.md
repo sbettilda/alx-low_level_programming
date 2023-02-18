@@ -1,1 +1,1 @@
-algebra letters and numbers
+separating numbers
