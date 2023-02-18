@@ -1,1 +1,1 @@
-ALPHABETS
+Except q and e
