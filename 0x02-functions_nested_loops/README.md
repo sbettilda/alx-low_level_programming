@@ -1,1 +1,1 @@
-alphabet void
+10x alphabet
