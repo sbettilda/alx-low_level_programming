@@ -1,1 +1,1 @@
-_putchar
+alphabet void
