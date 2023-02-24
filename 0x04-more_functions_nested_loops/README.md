@@ -1,1 +1,1 @@
-shortest distance
+diagonally parallel
