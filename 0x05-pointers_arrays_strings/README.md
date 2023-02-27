@@ -1,1 +1,1 @@
-Arrays are not pointers
+Copying strings
