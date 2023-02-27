@@ -1,1 +1,1 @@
-Reversing a string
+Print characters of a string
