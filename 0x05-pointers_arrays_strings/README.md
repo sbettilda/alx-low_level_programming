@@ -1,1 +1,1 @@
-printing a string to stdout
+Print string in reverse
