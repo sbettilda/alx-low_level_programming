@@ -1,1 +1,1 @@
-cant be read
+printing a string to stdout
