@@ -1,1 +1,1 @@
-Printing half a string
+Arrays are not pointers
