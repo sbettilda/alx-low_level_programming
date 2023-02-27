@@ -1,1 +1,1 @@
-Copying strings
+String to an integer
