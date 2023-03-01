@@ -1,1 +1,1 @@
-lowercase to uppercase
+Capitalize all words
