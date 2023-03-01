@@ -1,1 +1,1 @@
-Capitalize all words
+Encoding string
