@@ -1,1 +1,1 @@
-reverse content of array of integers
+lowercase to uppercase
