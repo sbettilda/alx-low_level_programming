@@ -1,1 +1,1 @@
-Encoding string
+encoding string using rot13
