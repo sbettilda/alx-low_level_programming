@@ -1,1 +1,1 @@
-numbers have life
+Magic
