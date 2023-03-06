@@ -1,1 +1,1 @@
-locate substrings
+chessboard
