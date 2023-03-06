@@ -1,1 +1,1 @@
-Set of bytes
+locate substrings
