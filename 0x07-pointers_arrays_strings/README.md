@@ -1,1 +1,1 @@
-Sum of two diagonals of square matrix
+Value of a pointer to a char
