@@ -1,1 +1,1 @@
-Natural square roots
+Prime numbers
