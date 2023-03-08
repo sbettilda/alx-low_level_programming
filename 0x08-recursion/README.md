@@ -1,1 +1,1 @@
-Prime numbers
+Palindrome
