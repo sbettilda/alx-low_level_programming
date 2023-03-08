@@ -1,1 +1,1 @@
-Length of a string
+Return factorial of a number
