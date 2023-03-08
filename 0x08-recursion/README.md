@@ -1,1 +1,1 @@
-Raising to a power
+Natural square roots
