@@ -1,1 +1,1 @@
-Return factorial of a number
+Raising to a power
