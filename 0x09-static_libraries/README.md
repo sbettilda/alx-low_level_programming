@@ -1,1 +1,1 @@
-Static libraries
+Creating static lib.sh
