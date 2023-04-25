@@ -27,7 +27,7 @@ listint_t *reverse_listint(listint_t **head)
 		previous = *head;
 		*head = next;
 		/**
-		 * previous points to the @head and @head points to next which 
+		 * previous points to the @head and @head points to next which
 		 * continues to the next list
 		 * when returns to previous, it points the first node of reversed lust
 		 */
