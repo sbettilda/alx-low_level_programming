@@ -11,7 +11,7 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int outcome = 0;
+	unsigned int result = 0;
 	int slen = 0, i;
 
 	if (b == NULL)
@@ -28,15 +28,15 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if ((b[i] != '0') && (b[i] != '1'))
 		{
-			return (outcome);
+			return (result);
 		}
 		if (b[i] == '1')
 		{
-			outcome += (1 * (1 << slen));
+			result += (1 * (1 << slen));
 		}
 		i++;
 		slen--;
 	}
 
-	return (outcome);
+	return (result);
 }
