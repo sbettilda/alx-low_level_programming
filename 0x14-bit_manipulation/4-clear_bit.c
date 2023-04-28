@@ -10,14 +10,9 @@
 
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned int d;
-	unsigned long int max_1 = 1;
-
-	d = (sizeof(unsigned long int) * 8);
-	if (index > d)
+	if (index > 63)
 		return (-1);
 
-	max_1 <<= ~(max_1 << index);
-	*n = (*n & max_1);
+	*n = (~(1UL << index) & *n);
 	return (1);
 }
