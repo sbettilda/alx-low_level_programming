@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+char *create_buffer(char *file);
+void close_file(int fd);
 /**
  * create_buffer - function allocating 1024 bytes for a buffer
  * @file: name of file storing chars
@@ -25,17 +27,17 @@ char *create_buffer(char *file)
 
 /**
  * close_file - function closing file descriptors
- * @cf: file descriptor to close
+ * @fd: file descriptor to close
  */
 
-void close_file(int cf)
+void close_file(int fd)
 {
 	int d;
 
-	d = close(cf);
+	d = close(fd);
 	if (d == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close cf %d\n", cf);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 		exit(100);
 	}
 }
