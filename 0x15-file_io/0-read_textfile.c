@@ -8,7 +8,7 @@
  * @letters: number of letters to be read and print
  *
  * Return: actual number of letters read and printed
- * Return: 0 if filename is NULL, or if write fails
+ * 0 if filename is NULL, or if write fails
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -16,17 +16,17 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t a;
 	ssize_t b;
 	ssize_t c;
-	char *d;
+	char *buff;
 
 	a = open(filename, O_RDONLY);
 	if (a == -1)
 		return (0);
 
-	d = malloc(sizeof(char) * letters);
-	c = read(a, d, letters);
-	b = write(STDOUT_FILENO, d, c);
+	buff = malloc(sizeof(char) * letters);
+	c = read(a, buff, letters);
+	b = write(STDOUT_FILENO, buff, c);
 
-	free(d);
+	free(buff);
 	close(a);
 	return (b);
 }
