@@ -1,56 +1,22 @@
-### TASKS 0x14 BIT MANIPULATION
+# Bit manipulation
+Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about how to manipulate bits and use bitwise operators in **C language**.
 
-##[0.0]
-Write a function that converts a binary number to an unsigned int.
+## Technologies
+* Scripts written in Bash 4.3.11(1)
+* C files are compiled using `gcc 4.8.4`
+* C files are written according to the C90 standard
+* Tested on Ubuntu 20.04 LTS
 
-Prototype: unsigned int binary_to_uint(const char *b);
-where b is pointing to a string of 0 and 1 chars
-Return: the converted number, or 0 if
-there is one or more chars in the string b that is not 0 or 1
-b is NULL
+## Files
+All of the following files are scripts and programs written in C:
 
-##[1.1]
-Write a function that prints the binary representation of a number.
-
-Prototype: void print_binary(unsigned long int n);
-Format: see example
-You are not allowed to use arrays
-You are not allowed to use malloc
-You are not allowed to use the % or / operators
-
-##[2.10]
-Write a function that returns the value of a bit at a given index.
-
-Prototype: int get_bit(unsigned long int n, unsigned int index);
-where index is the index, starting from 0 of the bit you want to get
-Returns: the value of the bit at index index or -1 if an error occured
-
-##[3.11]
-Write a function that sets the value of a bit to 1 at a given index.
-
-Prototype: int set_bit(unsigned long int *n, unsigned int index);
-where index is the index, starting from 0 of the bit you want to set
-Returns: 1 if it worked, or -1 if an error occurred
-
-##[4.100]
-Write a function that sets the value of a bit to 0 at a given index.
-
-Prototype: int clear_bit(unsigned long int *n, unsigned int index);
-where index is the index, starting from 0 of the bi
-
-##[5.101]
-Write a function that returns the number of bits you would need to flip to get from one number to another.
-
-Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
-You are not allowed to use the % or / operators
-
-##[6. Endianness]
-Write a function that checks the endianness.
-
-Prototype: int get_endianness(void);
-Returns: 0 if big endian, 1 if little endian
-
-##[7. Crackme3]
-Find the password for this program.
-
-Save the password in the file 101-password
+| Filename | Description |
+| -------- | ----------- |
+| `0-binary_to_uint.c` | Converts a binary number to an `unsigned int` |
+| `1-print_binary.c` | Prints the binary representation of a number |
+| `2-get_bit.c` | Returns the value of a bit at a given index |
+| `3-set_bit.c` | Sets the value of a bit to `1` at a given index |
+| `4-clear_bit.c` | Sets the value of a bit to `0` at a given index |
+| `5-flip_bits.c` | Returns the number of bits needed to flip to get from one number to another |
+| `100-get_endianess.c` | Checks the endianness |
+| `101-password` | Script that contains the password of `crackme3` file |
